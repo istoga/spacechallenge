@@ -43,5 +43,5 @@ Space Challenge is a coding problem suggested by Angela Yu in the Web Dev course
 ### Useful resources
 
 ## Author
-
+Neka Blair
 ## Acknowledgments
