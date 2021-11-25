@@ -19,16 +19,17 @@
 
 hr {
       width: 50%;
-      margin-left: 150px;
+      margin-left: 50px;
       border: #fff;
   }
 
 nav {
-    background-color: rgba(255, 255, 255, .15); 
-    backdrop-filter: blur(5px);
-    width: 50%;
-    height: 50%;
-    margin-left: 600px;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    background: transparent;
+    z-index: -500;
+    margin: -50px 50px 0px 600px;
+    padding: 50px 15px 50px 25px;
 }
 
 .nav-text {
@@ -37,7 +38,6 @@ nav {
     letter-spacing: 2.75px;
     text-transform: uppercase;
     color: #fff;
-    
     list-style-type: none;
     display: flex;
     flex:  0 1 auto;
@@ -45,16 +45,32 @@ nav {
     justify-content: safe flex-end;
     align-items: center;
     gap: 50px;
-    margin: -15px 50px;
+    #margin: 50px;
+    background: none;
 }
 
+.home {
+    background: none !important;
+}
 
+.dest {
+    background: none !important;
+}
+
+.crew {
+    background: none !important;
+}
+
+.tech {
+    background: none !important;
+}
 
 
 
 li a {
     text-decoration: none;
     color: #fff;
+    background: none;
     
 }
 
